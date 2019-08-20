@@ -1,0 +1,72 @@
+[{
+	"imagen": "imagenes/moto1.png",
+	"id": "MOT0001",
+	"nombre" : "Italika DM 200",
+	"modelo" : "2019",
+	"marca" : "Italika",
+	"color": "Verde con Negro",
+	"motor": "4 Tiempos, monocilindrico",
+	"cilindrada" : "200",
+	"tanque" : "11 L",
+	"peso" : "150 kg",
+	"precio": 27498,
+	"descripcion" : "Cuenta con un motor que te ofrece rendimiento de 26 km/l con velocidad máxima aproximada de 110 km/h. Frenos delanteros de disco y traseros de tambor, transmisión manual de 5 velocidades ideal para conducir en la ciudad. Además tiene un capacidad de carga de hasta 150 kg y una suspensión basculante unitaria que te brinda mayor estabilidad durante tu camino."
+}, 
+{
+	"imagen": "imagenes/moto2.png",
+	"id": "MOT0002",
+	"nombre" : "Vitalia 150",
+	"modelo" : "2018",
+	"marca" : "Yamaha",
+	"color": "Blanco con Azul",
+	"motor": "4 Tiempos, monocilíndrico",
+	"cilindrada" : "350",
+	"tanque" : "6.8 L",
+	"peso" : "130 kg",
+	"precio": 24498,
+	"descripcion" : "La Vitalia llegó para enamorar a quien la conduce y a quien la ve pasar. Su diseño vintage con acabados en cromo, la hacen ideal para trasladarse con gran estilo y personalidad. Además al ser ligera y contar con transmisión automática, la hace muy fácil de manejar."
+}, 
+{
+	"imagen": "imagenes/moto3.png",
+	"id": "MOT0003",
+	"nombre" : "Chopper Italika RC 200",
+	"modelo" : "2017",
+	"marca" : "Italika",
+	"color": "Negro",
+	"motor": "4 Tiempos",
+	"cilindrada" : "201.9",
+	"tanque" : "16 L",
+	"peso" : "150 kg",
+	"precio": 26498,
+	"descripcion" : "Siente todo el poder de la motocicleta chopper Italika RC 200, su rendimiento aproximado de combustible es de 27 km/l, cuenta con sistema de arranque eléctrico y de pedal, velocidad máxima de 112 km/h, transmisión estándar y muchas más características que la convierten en una gran inversión."
+}, 
+{
+	"imagen": "imagenes/moto4.png",
+	"id": "MOT0004",
+	"nombre" : "Doble Propósito Honda DM150",
+	"modelo" : "2017",
+	"marca" : "Honda",
+	"color": "Rojo",
+	"motor": "Motor GFF",
+	"cilindrada" : "149",
+	"tanque" : "11 L",
+	"peso" : "180 kg",
+	"precio": 25999,
+	"descripcion" : "Disfruta del asfalto y la terracería con esta versátil Honda. Si eres de los que no tienen límites en sus caminos, la DM150 es para ti, gracias a su altura, larga suspensión y llantas todo terreno."
+}, 
+{
+	"imagen": "imagenes/moto5.png",
+	"id": "MOT0005",
+	"nombre" : "Sptfire 200",
+	"modelo" : "2019",
+	"marca" : "BMW",
+	"color": "Gris",
+	"motor": "4 Tiempos, Monocilíndrico",
+	"cilindrada" : "200",
+	"tanque" : "20 L",
+	"peso" : "210 kg",
+	"precio": 180000,
+	"descripcion" : "La nueva motocicleta BMW Sptfire 200 será tu mejor aliada al momento de viajar en la ciudad o en carretera, cuenta con rines de rayos cromados, tablero asimétrico retro, espejos ajustables estilo Café Racer, asiento exclusivo Café Racer, llamativo escape cromado, motor monocilíndrico de 200cc enfriado por aire, así como sistema de arranque eléctrico y de pedal, velocidad máxima de 107 km/h, transmisión estándar, tanque de 16.2 L y 15 HP @8000 RPM"
+}]
+
+

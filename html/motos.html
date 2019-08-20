@@ -1,0 +1,44 @@
+<div class="contenido">
+
+  <h1>Conoce nuestras motocicletas</h1>
+  <p>Buscar:</p>
+  <input type="text" ng-model="buscar" placeholder="Buscar">
+
+  <p>Ordenar por:</p>
+  <br>
+  <button ng-click="orden = 'nombre'">Nombre</button>
+  <button ng-click="orden = 'precio'">Precio</button>
+  <button ng-click="orden = 'color'">Color</button>
+
+  <table>
+    <tr>
+      <th>Imagen</th>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Modelo</th>
+      <th>Marca</th>
+      <th>Color</th>
+      <th>Motor</th>
+      <th>Cilindrada</th>
+      <th>Tanque</th>
+      <th>Peso</th>
+      <th>Precio</th>
+      <th>Descripción</th>
+    </tr>
+    <tr ng-repeat="moto in motos | orderBy: orden | filter: buscar">
+      <td><img ng-src="{{moto.imagen}}"></td>
+      <td>{{moto.id}}</td>
+      <td>{{moto.nombre}}</td>
+      <td>{{moto.modelo}}</td>
+      <td>{{moto.marca}}</td>
+      <td>{{moto.color}}</td>
+      <td>{{moto.motor}}</td>
+      <td>{{moto.cilindrada}}</td>
+      <td>{{moto.tanque}}</td>
+      <td>{{moto.peso}}</td>
+      <td>{{moto.precio | currency}}</td>
+      <td>{{moto.descripcion}}</td>
+    </tr>
+  </table>
+
+</div> 

@@ -1,0 +1,34 @@
+<div class="contenido">
+
+      <h1>Nuestras Motos</h1>
+
+      <div class="filtros">
+        <p>Buscar:</p>
+        <input type="text" ng-model="buscar" placeholder="Buscar">
+
+        <p>Ordenar por:</p>
+        <button ng-click="orden = 'nombre'">Nombre</button>
+        <button ng-click="orden = 'precio'">Precio</button>
+        <button ng-click="orden = 'color'">Color</button>
+      </div>
+
+      <div class="informacion">
+        <table>
+          <tr>
+            <th>Imagen</th>
+            <th>Nombre</th>
+            <th>Modelo</th>
+            <th>Fabricante</th>
+            <th>Precio</th>
+          </tr>
+          <tr ng-repeat="moto in motos | orderBy: orden | filter: buscar">
+            <td><img ng-src="{{moto.imagen}}" style="margin: -12px 10px 0 0; float: left; width: 70px;"></td>
+            <td>{{moto.nombre}}</td>
+            <td>{{moto.modelo}}</td>
+            <td>{{moto.marca}}</td>
+            <td>{{moto.precio | currency}}</td>
+          </tr>
+        </table>
+
+    </div>
+  </div>
